@@ -326,6 +326,11 @@ p.date,
   font-size: 0.8rem;
 }
 
+.questions-table tbody td:last-child span {
+  position: relative;
+  top: -6px;
+}
+
 .questions-table tbody td:last-child button i {
   color: #9e5800;
   font-size: 30px;
