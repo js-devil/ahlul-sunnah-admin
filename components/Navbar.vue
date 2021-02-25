@@ -2,7 +2,7 @@
   <header class="d-flex justify-content-between p-3">
     <a class="d-flex" href="#" data-target="#menuModal" data-toggle="modal">
       <i class="feather icon-chevron-right"></i>
-      <span class="mt-1">MENU</span>
+      <h2 class="mt-1">MENU</h2>
     </a>
 
     <Menu />

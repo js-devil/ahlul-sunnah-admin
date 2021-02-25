@@ -3,7 +3,7 @@
     <div class="image"></div>
     <div class="trapezoid"></div>
     <form class="text-center">
-      <img src="/img/logo-dark.svg" class="mb-5 mr-5 ml-n5" />
+      <img src="/img/logo-dark.svg" class="mb-5" />
       <h3 class="font-weight-bold mb-0">Admin Login</h3>
       <div class="form-group mt-4">
         <input

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Navbar v-if="$route.name !== 'index'" />
+  <div :class="{ 'px-5 mx-3': isDashboard }">
+    <Navbar v-if="isDashboard" />
     <Nuxt />
   </div>
 </template>
@@ -9,6 +9,11 @@
 import Navbar from '../components/Navbar.vue';
 export default {
   components: { Navbar },
+  computed: {
+    isDashboard() {
+      return this.$route.name !== 'index';
+    },
+  },
 };
 </script>
 

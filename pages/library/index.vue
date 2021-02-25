@@ -1,6 +1,6 @@
 <template>
   <main class="mx-5 px-2">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between mt-3">
       <h1 class="mb-0">Library</h1>
 
       <nav class="nav status-tabs">

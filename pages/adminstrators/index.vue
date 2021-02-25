@@ -1,6 +1,6 @@
 <template>
   <main class="mx-5 px-2">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between mt-3">
       <h1 class="mb-0">Administrators</h1>
 
       <button class="btn btn-secondary px-4 py-3 rounded-pill main-btn">

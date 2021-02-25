@@ -63,21 +63,29 @@
 
     <div class="mt-3">
       <h4 style="font-weight: 600;">Recently Asked Questions</h4>
-      <div class="d-flex justify-content-between">
-        <div class="recent-questions d-flex justify-content-between px-4 py-3">
-          <p class="date">20-01-2021</p>
-          <h3>Dolorem exercitation fringilla viverra</h3>
-          <button class="px-3 border-0 bg-transparent ml-5 mt-2">
-            <i class="feather icon-arrow-right er"></i>
-          </button>
+      <div class="row">
+        <div class="col-6">
+          <div
+            class="recent-questions d-flex justify-content-between px-4 py-3"
+          >
+            <h3>Dolorem exercitation fringilla viverra</h3>
+            <button class="px-3 border-0 bg-transparent mt-2">
+              <i class="feather icon-arrow-right er"></i>
+            </button>
+            <p class="date">20-01-2021</p>
+          </div>
         </div>
 
-        <div class="recent-questions d-flex justify-content-between px-4 py-3">
-          <p class="date">20-01-2021</p>
-          <h3>Dolorem exercitation fringilla viverra</h3>
-          <button class="px-3 border-0 bg-transparent ml-5 mt-2">
-            <i class="feather icon-arrow-right"></i>
-          </button>
+        <div class="col-6">
+          <div
+            class="recent-questions d-flex justify-content-between px-4 py-3"
+          >
+            <h3>Dolorem exercitation fringilla viverra</h3>
+            <button class="px-3 border-0 bg-transparent mt-2">
+              <i class="feather icon-arrow-right"></i>
+            </button>
+            <p class="date">20-01-2021</p>
+          </div>
         </div>
       </div>
     </div>
