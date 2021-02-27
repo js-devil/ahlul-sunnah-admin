@@ -12,7 +12,6 @@
             <template v-for="link in links">
               <li
                 data-dismiss="modal"
-                :class="{ active: $route.name === link }"
                 :key="link"
               >
                 <nuxt-link :to="{ path: link }">{{ link }}</nuxt-link>
