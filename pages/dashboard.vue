@@ -64,7 +64,7 @@
     <div class="my-3">
       <h4 style="font-weight: 600;">Recently Asked Questions</h4>
       <div class="row">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12 mt-3">
           <div
             class="recent-questions d-flex justify-content-between px-4 py-3"
           >
