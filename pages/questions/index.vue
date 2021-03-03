@@ -210,6 +210,15 @@
             </td>
           </tr>
         </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5" class="text-center">
+              <button class="btn btn-sm btn-secondary px-4 py-2 rounded-pill">
+                Load More
+              </button>
+            </td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   </main>

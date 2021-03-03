@@ -2,7 +2,7 @@
   <header class="d-flex justify-content-between p-3">
     <a class="d-flex" href="#" data-target="#menuModal" data-toggle="modal">
       <i class="feather icon-chevron-right"></i>
-      <h3 class="mt-2" style="font-weight: 600;">MENU</h3>
+      <h3 class="mt-2 pt-1">MENU</h3>
     </a>
 
     <Menu />
@@ -23,4 +23,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+</style>

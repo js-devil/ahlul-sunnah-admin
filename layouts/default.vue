@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'px-5 mx-3': isDashboard }">
+  <div :class="{ 'px-lg-5 mx-lg-3': isDashboard }">
     <Navbar v-if="isDashboard" />
     <Nuxt />
   </div>

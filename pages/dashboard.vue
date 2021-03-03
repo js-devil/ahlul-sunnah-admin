@@ -2,7 +2,7 @@
   <main class="mx-5 px-2">
     <h1 class="mb-0">Dashboard</h1>
 
-    <div class="d-flex justify-content-between">
+    <div class="d-lg-flex justify-content-between">
       <div class="dashboard-card p-3 my-3">
         <h4 class="mb-4">Questions Asked</h4>
         <div class="d-flex justify-content-between">
@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <div class="d-flex justify-content-between">
+    <div class="d-lg-flex justify-content-between">
       <div class="dashboard-card2 p-3 my-3">
         <h4 class="mb-4">Library Downloads</h4>
         <div class="d-flex justify-content-between">
@@ -61,10 +61,10 @@
       <div class="dashboard-card p-3 my-3 bg-white"></div>
     </div>
 
-    <div class="mt-3">
+    <div class="my-3">
       <h4 style="font-weight: 600;">Recently Asked Questions</h4>
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12">
           <div
             class="recent-questions d-flex justify-content-between px-4 py-3"
           >
@@ -76,7 +76,7 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 mt-3">
           <div
             class="recent-questions d-flex justify-content-between px-4 py-3"
           >
