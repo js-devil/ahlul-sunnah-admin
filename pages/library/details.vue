@@ -130,4 +130,9 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+p.date {
+  padding: 10px;
+  font-size: 1rem;
+}
+</style>
