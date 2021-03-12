@@ -7,6 +7,11 @@
 
 <script>
 import Navbar from '../components/Navbar.vue';
+import Vue from 'vue';
+import global from './mixins';
+
+Vue.mixin(global);
+
 export default {
   components: { Navbar },
   computed: {

@@ -70,7 +70,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  middleware: 'authenticated',
+};
 </script>
 
 <style></style>
